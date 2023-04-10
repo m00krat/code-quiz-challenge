@@ -1,0 +1,135 @@
+:root{
+    --primary-color: #555;
+}
+body{
+background-color: rgb(116, 116, 116);
+}
+#time{
+    font-weight: bolder;
+}
+a{
+    background-color:rgb(61, 61, 61) ;
+    border: 1px black;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+a:hover{
+    background-color: black ;
+    cursor: pointer;
+}
+
+
+#container {
+    position: relative;
+    left: 32%;
+    top: 20%;
+    width: 600px;
+    height: 500px;
+    border: 10px solid var(--primary-color);
+    background-color: #e4e4e4;
+}
+#startQuiz {
+    background-color: var(--primary-color);
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+#startQuiz:hover{
+    background-color: black ;
+    cursor: pointer;
+}
+#questionsDiv {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#currentTime {
+    float: left;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#submit {
+    background-color: var(--primary-color);
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+#submit:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    padding: 15px 15px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+}
+
+li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+body {
+    max-width: 786px;
+}
+
+#container {
+position: absolute;
+left: 20%;
+}
+
+a {
+margin-left: 20%;
+}
+
+}
+
+@media screen and (max-width: 640px)
+{
+
+body 
+{min-width: 640px;}
+
+#container 
+{position: absolute; left: 10%;}
+
+a 
+{margin-left: 10%;}
+
+}
